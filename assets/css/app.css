@@ -1413,3 +1413,60 @@ body {
 .count_btn_owep::-webkit-scrollbar {
     display: none;
 }
+
+.b-btm-uid {
+    border-bottom: #E4E5F2 solid 2px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.blog-decrip {
+    padding: 50px 0px;
+    white-space: break-spaces;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.blog-s-hd {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+    padding: 0px 20%;
+}
+
+.blog-c-pby {
+    padding: 10px 0px;
+}
+
+.blog-c-pby span {
+    color: #1ED599;
+}
+
+.blog-p-date {
+    color: #A09DB1;
+    margin-top: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.blog-s-desc {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+    margin-top: 10px;
+}

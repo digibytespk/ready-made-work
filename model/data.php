@@ -248,3 +248,102 @@ $faq_array = [
     ],
 ];
 $search_data = [...$brands_array, ...$web_array, ...$motion_array, ...$development_array];
+$blog_array = [
+    [
+        "image" => "blog/2.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/3.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/4.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],
+];
+$blog_big_array = [
+    [
+        "image" => "blog/5.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/6.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/7.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],
+    [
+        "image" => "blog/8.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/9.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/10.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],
+    [
+        "image" => "blog/11.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/12.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/13.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],
+    [
+        "image" => "blog/14.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/15.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],    [
+        "image" => "blog/16.png",
+        "title" => "Ac eu maecenas aenean sed feugiat aliquet est",
+        "written_by" => "Arados Markachanda",
+        "posted_date" => "Jan 12, 2023",
+        "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
+    ],
+];
