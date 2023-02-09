@@ -347,3 +347,42 @@ $blog_big_array = [
         "description" => "Pharetra bibendum purus non vitae ridiculus enim turpis pulvinar. Consequat dolor egestas sem vulputate. Lectus diam odio ..."
     ],
 ];
+$shops_array = [
+    [
+        "image" => "/assets/shop/2.png"
+    ], [
+        "image" => "/assets/shop/3.png"
+    ], [
+        "image" => "/assets/shop/4.png"
+    ], [
+        "image" => "/assets/shop/5.png"
+    ], [
+        "image" => "/assets/shop/6.png"
+    ], [
+        "image" => "/assets/shop/7.png"
+    ], [
+        "image" => "/assets/shop/8.png"
+    ], [
+        "image" => "/assets/shop/9.png"
+    ], [
+        "image" => "/assets/shop/10.png"
+    ], [
+        "image" => "/assets/shop/11.png"
+    ], [
+        "image" => "/assets/shop/12.png"
+    ], [
+        "image" => "/assets/shop/13.png"
+    ], [
+        "image" => "/assets/shop/14.png"
+    ], [
+        "image" => "/assets/shop/15.png"
+    ], [
+        "image" => "/assets/shop/16.png"
+    ], [
+        "image" => "/assets/shop/17.png"
+    ], [
+        "image" => "/assets/shop/18.png"
+    ], [
+        "image" => "/assets/shop/19.png"
+    ]
+];
