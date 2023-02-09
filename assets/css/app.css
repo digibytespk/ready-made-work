@@ -1152,6 +1152,12 @@ body {
     bottom: 0;
 }
 
+.sign_in_ncwg svg {
+    top: 0;
+    height: 700px;
+    width: 550px;
+}
+
 .cwq_ljp {
     position: absolute;
     padding: 70px;
@@ -1186,10 +1192,15 @@ body {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
     letter-spacing: -0.025em;
+    width: 100%;
     color: #A09DB1;
+}
+
+.min-hei-700px {
+    min-height: 700px;
 }
 
 .elfhw_wejwu {
@@ -1407,6 +1418,28 @@ body {
 
     .ft--info-bx {
         margin-right: 0;
+    }
+
+    .sign_in_ncwg svg {
+        width: 100%;
+    }
+
+    .cwq_ljp {
+        top: 10%;
+    }
+
+    .pqoxj_jqpjc {
+        font-size: 20px;
+    }
+
+    .ehiwe_0ice {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mob-signin-dnone {
+        display: none;
     }
 }
 
@@ -1637,4 +1670,70 @@ body {
     list-style: disc;
     margin-right: 70px;
     margin-left: 30px;
+}
+
+.color-grin {
+    color: #1ED599;
+}
+
+.ml-4px {
+    margin-left: 4px;
+}
+
+.signup_btns_slect {
+    padding-left: 0;
+}
+
+.signup_btns_slect button {
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    color: #A09DB1;
+    margin: 2px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.signup_btns_slect button.active {
+    background-color: #FAC458;
+    color: #272838;
+}
+
+.signup_btns_slect button svg {
+    margin-right: 10px;
+}
+
+.signup_btns_slect button svg path {
+    fill: #DCDBE5;
+}
+
+.signup_btns_slect button.active svg path {
+    fill: #272838;
+}
+
+.btn_signup_w_gle button {
+    background-color: #fff;
+    color: #272838;
+    margin: 10px 0px 0px 0px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_signup_w_gle button img {
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+.r_signup_fm {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+    margin: 22px 0px;
 }
