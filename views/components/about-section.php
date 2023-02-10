@@ -9,9 +9,9 @@ Fusce risus varius integer imperdiet orci dolor id urna. Morbi euismod amet dict
 
 Facilisis ipsum vehicula purus bibendum faucibus sed. Egestas habitant pretium faucibus egestas. Natoque maecenas magnis adipiscing luctus eget vitae pharetra erat. At dolor nulla eget at vitae adipiscing.
             </div>
-            <div class="rmw-ast-1"><img src="/assets/shapes/about-top.png" /></div>
-            <div class="rmw-ast-2"><img src="/assets/shapes/about-bottom.png" /></div>
-            <div class="rmw-ast-3"><img src="/assets/shapes/tv.svg" /></div>
+            <div class="rmw-ast-1"><img data-srcset="/assets/shapes/about-top.png" /></div>
+            <div class="rmw-ast-2"><img data-srcset="/assets/shapes/about-bottom.png" /></div>
+            <div class="rmw-ast-3"><img data-srcset="/assets/shapes/tv.svg" /></div>
         </div>
     </div>
 </section>

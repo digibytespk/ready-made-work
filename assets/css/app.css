@@ -340,6 +340,15 @@ body {
     color: #1ED599;
 }
 
+.cclp-t-name a:hover {
+    color: #1ED599;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .mt-42 {
     margin-top: 42px;
 }
@@ -789,6 +798,9 @@ body {
     letter-spacing: -0.025em;
     color: #1ED599;
 }
+.ft--inf-detail a:hover{
+    color: #1ED599;
+}
 
 .mr-24 {
     margin-right: 20px;
@@ -1145,14 +1157,14 @@ body {
     position: relative;
 }
 
-.sign_in_ncwg svg {
+.sign_in_ncwg img.svg_bg {
     height: 100%;
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 
-.sign_in_ncwg svg {
+.sign_in_ncwg img.svg_bg {
     top: 0;
     height: 700px;
     width: 550px;
@@ -1736,4 +1748,8 @@ body {
     letter-spacing: -0.025em;
     color: #6B687B;
     margin: 22px 0px;
+}
+
+button {
+    user-select: none;
 }

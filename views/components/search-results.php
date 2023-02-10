@@ -25,7 +25,7 @@ function SearchSection($heading, $data)
                 ?>
                         <div class="col-lg-3">
                             <div class="card-clp">
-                                <div class="cclp-image-bx"><img src="/assets/<?= $value['image'] ?>" /></div>
+                                <div class="cclp-image-bx"><img data-srcset="/assets/<?= $value['image'] ?>" /></div>
                                 <div class="cclp-con-a">
                                     <div class="cclp-name"><?= $value['name'] ?></div>
                                     <div class="cclp-s-name"><?= $value['sub_name'] ?></div>

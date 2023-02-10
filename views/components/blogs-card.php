@@ -20,7 +20,7 @@ function BlogsSection($heading, $data)
                 ?>
                         <div class="col-lg-4">
                             <div class="card-clp">
-                                <div class="cclp-image-bx"><img src="/assets/<?= $value['image'] ?>" /></div>
+                                <div class="cclp-image-bx"><img data-srcset="/assets/<?= $value['image'] ?>" /></div>
                                 <div class="cclp-con-a">
                                     <div class="cclp-name"><?= $value['title'] ?></div>
                                     <div class="cclp-s-name blog-c-pby">by <span><?= $value['written_by'] ?></span></div>

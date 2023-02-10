@@ -18,7 +18,7 @@
                     </div>
                     <div>
                         <div class="ft--head">HELP CENTER</div>
-                        <div class="ft--inf-detail">help@readymadework.com</div>
+                        <div class="ft--inf-detail"><a href="mailto:help@readymadework.com">help@readymadework.com</a></div>
                     </div>
                 </div>
                 <div class="d-flex flex-wrap ft--info-bx">
@@ -33,7 +33,7 @@
                     </div>
                     <div>
                         <div class="ft--head">SUPPORT</div>
-                        <div class="ft--inf-detail">support@readymadework.com</div>
+                        <div class="ft--inf-detail"><a href="mailto:support@readymadework.com">support@readymadework.com</a></div>
                     </div>
                 </div>
             </div>
@@ -205,3 +205,6 @@
 </div>
 
 </html>
+<?php
+    include("footerjs.php");
+?>

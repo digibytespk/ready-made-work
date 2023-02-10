@@ -22,7 +22,7 @@ include("./model/icons.php");
                     <div class="swiper-slide">
                         <div class="card-testmon">
                             <div class="t-p-s-section">
-                                <div class="testimonial-profle"><img src="/assets/<?= $value['image'] ?>" /></div>
+                                <div class="testimonial-profle"><img data-srcset="/assets/<?= $value['image'] ?>" /></div>
                                 <div class="testimonial-stars">
                                     <div class="t-g-s t-gray-star"><?= $start_icon ?></div>
                                     <div class="t-g-s t-g-star"><?= $start_icon ?></div>

@@ -20,11 +20,11 @@ function BrandSection($heading, $data)
                 ?>
                         <div class="col-lg-3">
                             <div class="card-clp">
-                                <div class="cclp-image-bx"><img src="/assets/<?= $value['image'] ?>" /></div>
+                                <div class="cclp-image-bx"><img data-srcset="/assets/<?= $value['image'] ?>" /></div>
                                 <div class="cclp-con-a">
-                                    <div class="cclp-name"><?= $value['name'] ?></div>
+                                    <div class="cclp-name"><a href="/pdp1"><?= $value['name'] ?></a></div>
                                     <div class="cclp-s-name"><?= $value['sub_name'] ?></div>
-                                    <div class="cclp-t-name"><?= $value['technology'] ?></div>
+                                    <div class="cclp-t-name"><a href="/plp1"><?= $value['technology'] ?></a></div>
                                     <div class="mt-42">
                                         <svg width="70" height="2" viewBox="0 0 70 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <line x1="1" y1="1" x2="69" y2="1" stroke="#E4E5F2" stroke-width="2" stroke-linecap="round" />
