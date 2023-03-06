@@ -798,7 +798,8 @@ a {
     letter-spacing: -0.025em;
     color: #1ED599;
 }
-.ft--inf-detail a:hover{
+
+.ft--inf-detail a:hover {
     color: #1ED599;
 }
 
@@ -1752,4 +1753,12 @@ a {
 
 button {
     user-select: none;
+}
+
+.active-nav {
+    border-bottom: #1ED599 solid 3px;
+}
+
+.text-webkit-right {
+    text-align: -webkit-right;
 }
