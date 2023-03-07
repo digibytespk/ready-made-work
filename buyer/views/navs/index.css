@@ -280,3 +280,37 @@
 .pgram-notfi span {
     color: #A09DB1;
 }
+
+.bt-gayloc {
+    border-top: 2px solid #E4E5F2;
+}
+
+.galc_aher {
+    list-style: none;
+    padding-left: 0;
+}
+
+.galc_aher li {
+    margin-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.galc_aher li a {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
