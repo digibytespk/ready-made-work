@@ -285,6 +285,14 @@
     border-top: 2px solid #E4E5F2;
 }
 
+.bg-greey {
+    background-color: #E4E5F2 !important;
+}
+
+.border-greey {
+    border-color: #E4E5F2 !important;
+}
+
 .galc_aher {
     list-style: none;
     padding-left: 0;
@@ -313,4 +321,279 @@
 
 .pb-20 {
     padding-bottom: 20px;
+}
+
+.wprf-mig {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.wprf-mig img {
+    height: 100%;
+    width: 100%;
+}
+
+.wprf-igm {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #272838;
+}
+
+.wprf-hfiv {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    color: #A09DB1;
+}
+
+.wprf-tb-stion {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.wprf-nbtps button {
+    background-color: transparent;
+    border: 2px solid #FAC458;
+    border-radius: 5px;
+    padding: 9px 18px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    color: #272838;
+}
+
+.wprf-nbtps button svg {
+    margin-right: 7px;
+}
+
+.bg-lowy {
+    background-color: #FAC458 !important;
+}
+
+.blbls-cdrs {
+    border-top: 2px solid #E4E5F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.srd-lbel {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 36px;
+    color: #3D3B49;
+}
+
+.service-list-caso {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.srd-vule {
+    white-space: break-spaces;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.wdinsp-caso {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #272838;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ispr-dinh {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+    margin-bottom: 15px;
+}
+
+.isp-scaes {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.cw-b-rwap {
+    visibility: hidden;
+}
+
+.atacbox-opio:hover .cw-b-rwap {
+    visibility: visible;
+}
+
+.atacbox-opio {
+    margin-right: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: url('/assets/pointer/hand.png'), auto;
+}
+
+.atacbox-opio img {
+    height: 100%;
+    width: 100%;
+}
+
+.cw-b-rwap {
+    background: #272838;
+    opacity: 0.95;
+    box-shadow: 0px 5px 0px rgba(39, 40, 56, 0.12);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 15px 20px;
+    left: 0;
+}
+
+.rf-nowname {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.cpi_gyi {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #A09DB1;
+    display: flex;
+    align-items: center;
+}
+
+.cpi_gyi input {
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.blbs-ndib {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.blsb-iwo {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.font-s-20 {
+    font-size: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.nfhbu_life {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.nd_opui {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.mile-name-pp {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.mile-mount-pp {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.mile-date-pp {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.pra_klopi {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    color: #A09DB1;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.ridate-pflifes {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 36px;
+    color: #3D3B49;
 }
