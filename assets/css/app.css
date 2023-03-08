@@ -1793,3 +1793,59 @@ button {
 .text-right {
     text-align: right;
 }
+
+.notifi-xob {
+    padding: 0px 30px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.notfi-li-main {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0px;
+    letter-spacing: -0.025em;
+    color: #272838;
+    border-bottom: 1px solid #E4E5F2;
+    position: relative;
+}
+
+.notfi-li-main::before {
+    position: absolute;
+    content: ' ';
+    left: -15px;
+    top: 0;
+    margin: auto auto;
+    bottom: 0;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: #1ED599;
+}
+
+.notfi-li-main .imnode_nim {
+    height: 50px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 90px;
+}
+
+.pgram-notfi span {
+    color: #A09DB1;
+}
+
+.imnode_nim img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bb-none{
+    border-bottom: none;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
