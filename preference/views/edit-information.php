@@ -11,15 +11,15 @@ include("../views/components/nav.php");
     <div class="row">
         <div class="col-lg-3 bt-gayloc pt-20">
             <ul class="galc_aher">
-                <li><a>Edit Information</a></li>
-                <li><a>Change Password</a></li>
-                <li><a>Payment</a></li>
-                <li><a>General Settings</a></li>
+                <li class="change-tab" data-tab='edit-information-tab'>Edit Information</li>
+                <li class="change-tab" data-tab='change-p-tab'>Change Password</li>
+                <li class="change-tab" data-tab='payment-tab'>Payment</li>
+                <li class="change-tab" data-tab='general-tab'>General Settings</li>
             </ul>
         </div>
-        <div class="col-lg-9 bt-gayloc pt-20">
-            <div class="edit-information-tab">
-                <div>
+        <div class="col-lg-9 bt-gayloc pt-20 overflow-hidden">
+            <div class="edit-information-tab pref-node show-pref">
+                <div class="pt-20">
                     <div class="inf-lable">Display Picture</div>
                     <div class="d-flex flex-wrap mt-30">
                         <div class="eif-pituxcer"><img src="/assets/designers/7.png" /></div>
@@ -143,9 +143,15 @@ include("../views/components/nav.php");
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="change-p-tab">
                 <div class="bt-gayloc pt-20 mt-20">
+                    <div class="ft-cclp-but mt-10 text-right">
+                        <button class="c-btn-c">Save Settings</button>
+                        <button class="c-btn-c bg-white text-black">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="change-p-tab pref-node">
+                <div class="pt-20">
                     <div class="inf-lable">Enter Existing Password</div>
                     <div class="row">
                         <div class="col-lg-12">
@@ -158,6 +164,12 @@ include("../views/components/nav.php");
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="bt-gayloc pt-20 mt-20">
+                    <div class="ft-cclp-but mt-10 text-right">
+                        <button class="c-btn-c">Proceed</button>
+                        <button class="c-btn-c bg-white text-black">Cancel</button>
                     </div>
                 </div>
                 <div class="bt-gayloc pt-20 mt-20">
@@ -184,6 +196,12 @@ include("../views/components/nav.php");
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="bt-gayloc pt-20 mt-20">
+                    <div class="ft-cclp-but mt-10 text-right">
+                        <button class="c-btn-c">Proceed</button>
+                        <button class="c-btn-c bg-white text-black">Cancel</button>
                     </div>
                 </div>
                 <div class="bt-gayloc pt-20 mt-20">
@@ -239,9 +257,15 @@ include("../views/components/nav.php");
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="payment-tab">
                 <div class="bt-gayloc pt-20 mt-20">
+                    <div class="ft-cclp-but mt-10 text-right">
+                        <button class="c-btn-c">Update Password</button>
+                        <button class="c-btn-c bg-white text-black">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-tab pref-node">
+                <div class="pt-20">
                     <div class="inf-lable">Payment</div>
                     <div class="payli_rdca mt-20">
                         <div class="row">
@@ -281,8 +305,8 @@ include("../views/components/nav.php");
                     </div>
                 </div>
             </div>
-            <div class="general-tab">
-                <div class="bt-gayloc pt-20 mt-20">
+            <div class="general-tab pref-node">
+                <div class="pt-20">
                     <div class="inf-lable">General Settings</div>
                     <div class="d-flex justify-content-between align-items-center mt-10 mb-10">
                         <div class="ings-mlopai">Notify me when a followed designer uploads a new asset</div>
@@ -345,7 +369,6 @@ include("../views/components/nav.php");
                         </div>
                     </div>
                 </div>
-
                 <div class="bt-gayloc pt-20 mt-20">
                     <div class="inf-lable">Authentication Settings</div>
                     <div class="d-flex justify-content-between align-items-center mt-10 mb-10">
@@ -359,13 +382,14 @@ include("../views/components/nav.php");
                         </div>
                     </div>
                 </div>
-                <div class="bt-gayloc pt-20 mt-20">
-                    <div class="ft-cclp-but mt-10 text-right">
-                        <button class="c-btn-c">Save Settings</button>
-                        <button class="c-btn-c bg-white text-black">Cancel</button>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
+<script>
+    $(document).on("click", ".change-tab", function() {
+        var attr = $(this).attr('data-tab');
+        $(".pref-node").removeClass("show-pref");
+        $(`.${attr}`).addClass("show-pref");
+    });
+</script>

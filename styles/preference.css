@@ -302,3 +302,13 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
 }
+
+.pref-node {
+    transform: translateX(-100%);
+    display: none;
+}
+
+.pref-node.show-pref {
+    transform: translateX(0%);
+    display: block;
+}

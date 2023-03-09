@@ -3,7 +3,7 @@
 
   var colour = "#fff";
   var opacity = 0.3;
-  var ripple_within_elements = ["button"];
+  var ripple_within_elements = ["button", "li"];
   var ripple_without_diameter = 50;
 
   var overlays = {

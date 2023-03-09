@@ -1856,14 +1856,16 @@ button {
 }
 
 .galc_aher li {
-    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    user-select: none;
 }
 
 .pt-20 {
     padding-top: 20px;
 }
 
-.galc_aher li a {
+.galc_aher li a, .galc_aher li {
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 16px;
