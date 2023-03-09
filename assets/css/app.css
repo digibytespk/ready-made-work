@@ -1791,7 +1791,7 @@ button {
 }
 
 .text-right {
-    text-align: right;
+    text-align: -webkit-right;
 }
 
 .notifi-xob {
@@ -1842,10 +1842,87 @@ button {
     object-fit: cover;
 }
 
-.bb-none{
+.bb-none {
     border-bottom: none;
 }
 
 .mr-10 {
     margin-right: 10px;
+}
+
+.galc_aher {
+    list-style: none;
+    padding-left: 0;
+}
+
+.galc_aher li {
+    margin-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.galc_aher li a {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}
+
+.bt-gayloc {
+    border-top: 2px solid #E4E5F2;
+}
+
+.no-btn-style {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    color: inherit !important;
+}
+
+.text-align-left {
+    text-align: left !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
+.pr-10 {
+    padding-right: 10px !important;
+}
+
+.round-btn-g {
+    background: #E4E5F2;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #E4E5F2 solid 1px;
+}
+
+.payli_rdca {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 9px;
+    padding: 20px;
 }

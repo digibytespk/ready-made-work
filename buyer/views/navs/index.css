@@ -11,17 +11,6 @@
     object-fit: cover;
 }
 
-.no-btn-style {
-    background-color: transparent !important;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    font-family: inherit !important;
-    font-size: inherit !important;
-    font-weight: inherit !important;
-    color: inherit !important;
-}
-
 .dt-zro_xbx {
     font-family: 'Manrope';
     font-weight: 400;
@@ -29,14 +18,6 @@
     line-height: 55px;
     color: #A09DB1;
     margin-left: 5px;
-}
-
-.pl-10 {
-    padding-left: 10px !important;
-}
-
-.pr-10 {
-    padding-right: 10px !important;
 }
 
 .no-pointer {
@@ -70,10 +51,6 @@
     background-color: #FFFFFF;
     padding: 30px 35px;
     margin-top: 70px;
-}
-
-.mt-10 {
-    margin-top: 10px;
 }
 
 .view-icon-bhcs {
@@ -281,38 +258,12 @@
     color: #A09DB1;
 }
 
-.bt-gayloc {
-    border-top: 2px solid #E4E5F2;
-}
-
 .bg-greey {
     background-color: #E4E5F2 !important;
 }
 
 .border-greey {
     border-color: #E4E5F2 !important;
-}
-
-.galc_aher {
-    list-style: none;
-    padding-left: 0;
-}
-
-.galc_aher li {
-    margin-top: 15px;
-}
-
-.pt-20 {
-    padding-top: 20px;
-}
-
-.galc_aher li a {
-    font-family: 'Manrope';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: -0.025em;
-    color: #3D3B49;
 }
 
 .mb-20 {
