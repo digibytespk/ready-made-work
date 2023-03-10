@@ -1,6 +1,7 @@
 <?php
 include("navs/index.php");
 ?>
+<link rel="stylesheet" href="/styles/popup.css" />
 <?php
 include("components/bread-crumb.php");
 BreadCrumb([
@@ -214,7 +215,7 @@ BreadCrumb([
                         <div class="col-lg-12">
                             <div class="blsb-iwo">
                                 <div class="ft-cclp-but">
-                                    <button class="c-btn-c">Accept Offer</button>
+                                    <button class="c-btn-c show-con-popup">Accept Offer</button>
                                     <button class="c-btn-c bg-white text-black">Negotiate</button>
                                 </div>
                             </div>
@@ -225,3 +226,8 @@ BreadCrumb([
         </div>
     </div>
 </div>
+<?php
+include("popup/confirm.php");
+include("popup/status.php");
+include("popup/activity.php");
+?>
