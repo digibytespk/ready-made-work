@@ -69,5 +69,5 @@ include("navs/index.php");
 </section>
 
 <?php
-    include("../../components/hire-a-pro.php");
+    include("../components/hire-a-pro.php");
 ?>

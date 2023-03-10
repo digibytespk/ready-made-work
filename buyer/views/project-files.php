@@ -80,3 +80,6 @@ BreadCrumb([
 
     </div>
 </div>
+<?php
+include("popup/milestone-cost.php");
+?>

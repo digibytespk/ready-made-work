@@ -548,3 +548,12 @@
     line-height: 36px;
     color: #3D3B49;
 }
+
+.bran-mounta {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+}

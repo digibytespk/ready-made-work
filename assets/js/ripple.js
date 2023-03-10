@@ -22,6 +22,7 @@
       $element.style.opacity = opacity;
       //$element.style.outline = "10px solid red";
       $element.style.pointerEvents = "none";
+      $element.style.zIndex = "9999999";
       $element.style.background =
         "-webkit-radial-gradient(" +
         colour +

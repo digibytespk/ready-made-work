@@ -7,7 +7,6 @@ include("../views/components/nav.php");
     <div class="clp-flex-a">
         <h1 class="cs-h1">Preferences</h1>
     </div>
-
     <div class="row">
         <div class="col-lg-3 bt-gayloc pt-20">
             <ul class="galc_aher">
@@ -303,6 +302,17 @@ include("../views/components/nav.php");
                             </div>
                         </div>
                     </div>
+
+                    <div class="bt-gayloc pt-20 mt-20">
+                        <div class="ft-cclp-but mt-10 text-right">
+                            <button class="c-btn-c" id="add-payment-method">Add Payment Method</button>
+                        </div>
+                    </div>
+                    <script>
+                        $(document).on("click", "#add-payment-method", () => {
+                            $("#add-pay-met-popup").addClass("show")
+                        })
+                    </script>
                 </div>
             </div>
             <div class="general-tab pref-node">
@@ -386,6 +396,9 @@ include("../views/components/nav.php");
         </div>
     </div>
 </div>
+<?php
+include("popups/add-payment.php");
+?>
 <script>
     $(document).on("click", ".change-tab", function() {
         var attr = $(this).attr('data-tab');

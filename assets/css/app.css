@@ -383,6 +383,10 @@ a {
     background-color: #FAC458;
 }
 
+.text-gray-meth {
+    color: #A09DB1 !important;
+}
+
 .bg-lwo-s svg {
     margin: 0;
 }
@@ -1927,4 +1931,32 @@ button {
     box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.09);
     border-radius: 9px;
     padding: 20px;
+}
+
+.box-shadow-none {
+    box-shadow: none !important;
+}
+
+.border-color-none {
+    border-color: transparent !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.pl-15 {
+    padding-left: 15px !important;
+}
+
+.line-br-gya {
+    border: 2px solid #E4E5F2;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-30 {
+    width: 30% !important;
 }

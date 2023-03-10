@@ -1,0 +1,107 @@
+.popup-body {
+    background-color: #fff;
+    max-width: 630px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: .8s;
+    transform: translateX(1000%);
+    overflow-y: scroll;
+}
+
+.popup-body.show {
+    transform: translateX(0%);
+}
+
+.popup-header {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 0px 0px 9px 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.popup-heading {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #A09DB1;
+}
+
+.popup-inner-body {
+    padding: 20px 25px;
+}
+
+.info-para-poup {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    color: #6B687B;
+}
+
+.li_njhmoney_silt {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #6B687B;
+    padding-left: 0;
+}
+
+.li_njhmoney_silt li {
+    padding: 20px 0px;
+    border: 1px solid #F9F8F8;
+}
+
+.lobd-silt {
+    color: #3D3B49;
+}
+
+.lobd-silt span {
+    color: #DCDBE5;
+}
+
+.tolat_xob {
+    background: rgba(30, 213, 153, 0.12);
+    border: 1px solid #1ED599;
+    border-radius: 5px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
+    padding: 20px 20px;
+}
+
+.tolat_xob span {
+    color: #A09DB1;
+    font-size: 14px;
+}
+
+.ul_rvlinks {
+    padding-left: 0;
+    list-style: none;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #272838;
+}
+
+.rLimnk_l {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A09DB1;
+}
