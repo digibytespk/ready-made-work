@@ -31,6 +31,11 @@ body {
     color: #272838 !important;
 }
 
+.bg-reeg {
+    background-color: #1ED599 !important;
+}
+
+
 .btn-header button {
     border: none;
     background: #1ED599;
@@ -1605,6 +1610,7 @@ a {
     max-width: 270px;
     max-height: 200px;
     margin: 10px 0px;
+    position: relative;
 }
 
 .box-shop-wrd img {
@@ -1613,10 +1619,18 @@ a {
     object-fit: cover;
 }
 
+.min-width-auto {
+    min-width: auto;
+}
+
 .shops-griss {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.box-shop-wrd:hover .cw-b-rwap {
+    visibility: visible;
 }
 
 .categry-mhding {
@@ -1834,6 +1848,24 @@ button {
     border-radius: 3px;
     overflow: hidden;
     width: 90px;
+}
+
+.rf-nowsecname {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    color: #1ED599;
+}
+
+.oline_atirlw {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    color: #3D3B49;
 }
 
 .pgram-notfi span {

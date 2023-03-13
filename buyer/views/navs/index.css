@@ -193,6 +193,7 @@
 
 .profile-tab-ki.show {
     transform: translateY(0) !important;
+    z-index: 9999;
 }
 
 .profile-tab-ki ul {
